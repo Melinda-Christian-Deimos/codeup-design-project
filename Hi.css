@@ -1,7 +1,8 @@
 body {
     background-color: lightgray;
     display: grid;
-    grid-template-rows: repeat(7,200px);
+    grid-template-rows:  300px 200px 300px 200px 300px 300px 300px;
+    grid-template-columns: 100%;
 }
 
 /*.jumbotron {*/
@@ -63,17 +64,44 @@ body {
     width: 150px;
     display: inline-block;
     border-radius: 70%;
-    background-color: powderblue;
-    border: white 6px solid;
+    border: white 8px solid;
     text-align: center;
+    padding-top: 50px;
+    vertical-align: center;
+    font-family: 'Anton', sans-serif;
+    color: white;
+}
+
+#red-dot {
+    background-color: #E6563B;
+}
+
+#yellow-dot {
+    background-color: #EB9D3A;
+}
+
+#green-dot {
+    background-color: #7CB06C;
+}
+
+#blue-dot {
+    background-color: #00ABA9;
 }
 
 #work >img {
     width: 300px;
     height: auto;
+    border: 10px solid #E6E6E6;
+    border-radius: 4px;
 }
 
-
+#work {
+    padding-top: 30px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    /*border: 4px solid white;*/
+    /*border-radius: 4px;*/
+}
 
 .dot2 {
     height:25px;
@@ -81,6 +109,15 @@ body {
     display: inline-block;
     border-radius: 70%;
     background-color: powderblue;
+}
+
+.project {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-inline: 45px;
+
 }
 
 
