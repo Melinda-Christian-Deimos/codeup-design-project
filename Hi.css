@@ -5,6 +5,22 @@ body {
     grid-template-columns: 100%;
 }
 
+#ipad {
+    display: none;
+}
+
+#keyboard {
+    display: none;
+}
+
+#guy {
+    display:none;
+}
+
+#security {
+    display:none;
+}
+
 /*.jumbotron {*/
 /*    background-image: url("logo.jpg");*/
 /*    background-repeat: no-repeat;*/
@@ -139,6 +155,10 @@ body {
     color: white;
 }
 
+hr {
+    display: none;
+}
+
 #work >img {
     width: 390px;
     height: auto;
@@ -225,8 +245,8 @@ body {
 
 #red-dot {
     align-content: center;
-    height:150px;
-    width: 150px;
+    height:130px;
+    width: 130px;
     display: inline-block;
     border-radius: 70%;
     border: white 8px solid;
@@ -239,13 +259,13 @@ body {
     margin: 5px;
 }
 #red-font{
-    font-size: 20px;
+    font-size: 25px;
 }
 #yellow-dot {
     margin: 5px;
     align-content: center;
-    height:150px;
-    width: 150px;
+    height:130px;
+    width: 130px;
     display: inline-block;
     border-radius: 70%;
     border: white 8px solid;
@@ -254,13 +274,17 @@ body {
     vertical-align: center;
     font-family: 'Anton', sans-serif;
     color: white;
+}
+
+#yellow-font {
+    font-size: 25px;
 }
 
 #green-dot {
     margin: 5px;
     align-content: center;
-    height:150px;
-    width: 150px;
+    height:130px;
+    width: 130px;
     display: inline-block;
     border-radius: 70%;
     border: white 8px solid;
@@ -271,11 +295,15 @@ body {
     color: white;
 }
 
+#green-font {
+    font-size: 25px;
+}
+
 #blue-dot {
     margin: 5px;
     align-content: center;
-    height:150px;
-    width: 150px;
+    height:130px;
+    width: 130px;
     display: inline-block;
     border-radius: 70%;
     border: white 8px solid;
@@ -284,6 +312,10 @@ body {
     vertical-align: center;
     font-family: 'Anton', sans-serif;
     color: white;
+}
+
+#blue-font {
+    font-size: 25px;
 }
 
 .dot{
@@ -300,9 +332,49 @@ body {
     color: white;
 
 }
+hr {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -150px;
+    display: block;
+    }
+#work1 {
+    padding-bottom: 50px;
+    padding-top: 100px;
+    font-family: 'Abel', sans-serif;
+    text-align: center;
+    margin-top: -620px;
+}
 
-#red-dot {
+#work2 {
+    font-size: 15px;
+}
 
+#ipad {
+        display: block;
+}
+
+#keyboard {
+    display: block;
+
+}
+
+#guy {
+    display: block;
+    grid-area:
+}
+
+#security {
+    display: block;
+}
+
+
+
+.img-group {
+    display: grid;
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px;
 }
 
 }
