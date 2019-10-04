@@ -1,7 +1,7 @@
 /*THIS IS THE START OF THE MOBILE VERSION*/
 
 body {
-    background-color: lightgray;
+    background-color: #E6E6E6;
     display: grid;
     grid-template-rows:  200px 100px 100px 100px 300px 300px 300px;
     grid-template-columns: 100%;
@@ -515,14 +515,12 @@ img {
     }
 }
 
+.right {
+    display: none;
+}
+
 @media screen and (min-width:768px) {
 
-/*body {*/
-/*    background-color: lightgray;*/
-/*    display: grid;*/
-/*    grid-template-rows:  300px 300px 300px 300px 300px 300px 300px;*/
-/*    grid-template-columns: 300px 300px 300px 300px;*/
-/*}*/
 
 #work2 {
     display: flex;
@@ -563,13 +561,6 @@ img {
     padding-top: 20px;
 }
 
-
-/*.right {*/
-/*    display: flex;*/
-/*    flex-direction: column;*/
-/*    align-items: stretch;*/
-
-/*}*/
 img {
     width: 270px;
     height: 160px;
@@ -647,7 +638,9 @@ h6 {
     font-family: 'Abel', sans-serif;
 }
 p {
+    font-size: 13px;
     font-family: 'Abel', sans-serif;
+
 }
 
 
