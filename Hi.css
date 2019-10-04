@@ -6,6 +6,7 @@ body {
     grid-template-rows:  200px 100px 100px 100px 300px 300px 300px;
     grid-template-columns: 100%;
 }
+/*images for mobile view to not display */
 
 #ipad {
     display: none;
@@ -26,15 +27,16 @@ body {
 .right {
     display: none;
 }
+ /*end*/
 
 
+/*Logo white box */
 #box >img{
     align-content: center;
     height: 150px;
     width: 150px;
     margin-top: -38px;
      border-radius: 75px;
-
 
 }
 
@@ -45,6 +47,9 @@ body {
     margin-top: 70px;
     margin-bottom: 20px;
 }
+
+/*end logo box */
+
 
 
 #header1 {
@@ -542,7 +547,7 @@ img {
     display: inline-grid;
     grid-template-rows: 250px 250px;
     grid-template-columns: 290px 290px;
-    margin-top: -1040px;
+    margin-top: -705px;
     justify-content: start;
     margin-left: 150px;
     margin-bottom: 300px;
@@ -554,11 +559,11 @@ img {
     grid-template-columns: 350px;
     grid-template-rows: 10% 10% 10% 250px;
     justify-content: end;
-    margin-top: -670px;
+    margin-top: -570px;
     margin-right: 350px;
     margin-left: 0px;
-    margin-bottom: 150px;
-    padding-top: 20px;
+    margin-bottom: 90px;
+    padding-top: 10px;
 }
 
 img {
@@ -589,7 +594,7 @@ h5 {
 }
 
 #alladmin {
-    margin-top: -20px;
+    margin-top: -95px;
     margin-bottom: 90px;
 
 }
@@ -606,6 +611,7 @@ h5 {
 
 #nibbler {
     margin-bottom: 90px;
+    margin-top: -10%;
 }
 #nibblerhead {
     display: flex;
@@ -635,9 +641,11 @@ h5 {
 }
 
 h6 {
+    margin-top: -100px;
     font-family: 'Abel', sans-serif;
 }
 p {
+    margin-top: -130px;
     font-size: 13px;
     font-family: 'Abel', sans-serif;
 
