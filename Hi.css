@@ -76,7 +76,7 @@ body {
     grid-row-gap: 10px;
 
 }
-
+/*sized dots and positioned them for mobile version*/
 #red-dot {
     background-color: #E6563B;
     align-content: center;
@@ -190,7 +190,7 @@ hr {
     margin-top: 80px;
 
 }
-
+/*changed margin of dots at the bottom of the page and changed font size of text*/
 #red-f {
     background-color: #E6563B;
     margin-right: 10px;
@@ -262,7 +262,7 @@ body {
         flex-direction: row;
 }
 
-
+/*changed size and positioning of dots to match new screen size*/
 #red-dot {
         align-content: center;
         height: 130px;
@@ -354,6 +354,7 @@ body {
         color: white;
 }
 
+/*line beneath dots positioned*/
 hr {
         width: 70%;
         margin-left: auto;
@@ -363,7 +364,7 @@ hr {
 }
 
 
-
+/*changed text and centered*/
 #work1 {
         padding-bottom: 50px;
         padding-top: 100px;
@@ -407,7 +408,7 @@ img {
 #ipad {
         display: block;
 }
-
+/*added grid to group of images*/
 .img-group {
         flex-direction: row;
         flex-wrap: wrap;
@@ -436,7 +437,7 @@ img {
 
 }
 
-
+/*Changed background color and margin for dots*/
 #red1 {
         background-color: #E6563B;
 }
@@ -537,10 +538,10 @@ img {
 .right {
     display: none;
 }
-
+    /*change to medium size screen*/
 @media screen and (min-width:768px) {
 
-
+/*selected work on media page*/
 #work2 {
     display: flex;
     justify-content: left;
@@ -548,6 +549,7 @@ img {
     margin-top: 70px;
 }
 
+/*created flex box for bottom footer*/
 .feature2 {
     display: flex;
     flex-direction: row;
@@ -556,7 +558,7 @@ img {
     margin-right: 75px;
     margin-top: 5px;
 }
-
+/*changed size of images*/
 .img-group {
     display: inline-grid;
     grid-template-rows: 250px 250px;
@@ -567,7 +569,7 @@ img {
     margin-bottom: 300px;
 }
 
-
+/*grid template for side bar*/
 .right {
     display: inline-grid;
     grid-template-columns: 350px;
@@ -579,12 +581,12 @@ img {
     margin-bottom: 90px;
     padding-top: 10px;
 }
-
+/*image size*/
 img {
     width: 270px;
     height: 160px;
 }
-
+/*size change for small dots*/
 .dot3 {
     align-content: center;
     height: 15px;
@@ -597,6 +599,8 @@ img {
     font-size: 12px;
     margin-top: 5px;
 }
+
+/*changed font of small heading*/
 h5 {
     font-family: 'Anton', sans-serif;
    float: right;
@@ -607,17 +611,21 @@ h5 {
     margin-bottom: 50px;
 }
 
+/*changed margin*/
 #alladmin {
     margin-top: -95px;
     margin-bottom: 90px;
 
 }
+
+/*changed size of img*/
 #adminimg >img {
     width: 100px;
     height: 100px;
     float: left;
 
 }
+
 #admin {
     display: flex;
      justify-content: flex-end;
@@ -627,11 +635,13 @@ h5 {
     margin-bottom: 90px;
     margin-top: -10%;
 }
+
 #nibblerhead {
     display: flex;
     justify-content: flex-end;
 }
 
+/*changed img size*/
 #nibblerimg >img {
     width: 110px;
     height: 100px;
@@ -643,6 +653,8 @@ h5 {
 #google {
     margin-top: 30px;
 }
+
+/*changed size of image*/
 #google >img {
     width: 110px;
     height:100px;
@@ -654,10 +666,12 @@ h5 {
     justify-content: flex-end;
 }
 
+/*Changed font and margin for small heading*/
 h6 {
     margin-top: -100px;
     font-family: 'Abel', sans-serif;
 }
+/*changed font and margin for paragraph*/
 p {
     margin-top: -130px;
     font-size: 13px;
